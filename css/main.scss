@@ -6,6 +6,16 @@
     background-image: url('../img/stars.jpg');
     background-size: cover;
     color: #FFFBFA;
+
+    @media(min-width: $breakpoint-tablet) {
+        background-image: none;
+        background-color: $aqua;
+    }
+
+    @media(min-width: $breakpoint-laptop) {
+        background-image: none;
+        background-color: $aqua;
+    }
 }
 
 .header-wrapper .black-overlay{
