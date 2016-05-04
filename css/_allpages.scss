@@ -17,4 +17,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
     margin: 5%;
+    flex: 1;
+}
+
+.flex {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.footer {
+    height: 3rem;
+    text-align: center;
 }

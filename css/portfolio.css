@@ -1,3 +1,5 @@
+/* Breakpoints */
+/* Colors */
 html, body {
   background-color: #fff;
   min-height: 100%;
@@ -7,33 +9,71 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0; }
 
 .container {
-  margin: 5%; }
+  margin: 5%;
+  flex: 1; }
+
+.flex {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+.footer {
+  height: 3rem;
+  text-align: center; }
 
 .nav-wrapper {
-  font-weight: 200;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   width: 100%; }
 
 .nav-wrapper .list {
+  text-align: center;
   margin: 0;
   padding: 0;
   background-color: whitesmoke; }
+  @media (min-width: 768px) {
+    .nav-wrapper .list {
+      text-align: right; } }
 .nav-wrapper .list-item {
   display: inline-block;
   text-align: center;
-  width: 31%;
+  width: 23%;
   height: 3rem;
   line-height: 3rem; }
+  @media (min-width: 768px) {
+    .nav-wrapper .list-item {
+      width: 10%; } }
 .nav-wrapper a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.87059); }
 
+.allProjects {
+  width: 100%;
+  height: 100%;
+  text-align: center; }
+
 .project-wrapper {
   width: 100%;
-  height: 20rem;
+  height: 18rem;
   margin-bottom: 1rem;
   border: 1px solid black;
   font-size: 32px;
-  color: #fff; }
+  color: #fff;
+  float: left; }
+  @media (min-width: 768px) {
+    .project-wrapper {
+      width: 14rem;
+      height: 14rem;
+      margin-right: auto; }
+      .project-wrapper :not(:first-child) {
+        margin-left: 1rem; } }
+  @media (min-width: 1024px) {
+    .project-wrapper {
+      width: 18rem;
+      height: 18rem;
+      margin-right: 1rem; }
+      .project-wrapper :not(:first-child) {
+        margin-left: 1rem; } }
 
 .project-wrapper .black-overlay {
   background-color: rgba(0, 0, 0, 0.35);
