@@ -1,0 +1,36 @@
+html, body {
+  background-color: #fff;
+  min-height: 100%;
+  font-family: sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0; }
+
+.container {
+  margin: 5%; }
+
+.nav-wrapper {
+  font-weight: 200;
+  width: 100%; }
+
+.nav-wrapper .list {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke; }
+.nav-wrapper .list-item {
+  display: inline-block;
+  text-align: center;
+  width: 31%;
+  height: 3rem;
+  line-height: 3rem; }
+.nav-wrapper a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87059); }
+
+.description {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: dimgray;
+  text-align: justify; }
+
+/*# sourceMappingURL=about.css.map */

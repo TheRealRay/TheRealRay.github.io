@@ -1,0 +1,25 @@
+.nav-wrapper {
+    font-weight: 200;
+    width: 100%;
+}
+
+.nav-wrapper {
+    .list {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(245, 245, 245);
+    }
+
+    .list-item {
+        display: inline-block;
+        text-align: center;
+        width: 31%;
+        height: 3rem;
+        line-height: 3rem;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.870588);
+    }
+}
