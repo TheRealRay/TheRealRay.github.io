@@ -1,11 +1,11 @@
-@import "allpages.scss";
+@import "allpages";
 
 .header-wrapper {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     height:100vh;
     background-image: url('../img/stars.jpg');
     background-size: cover;
-    color: #FFFBFA;
+    color: $white;
 
     @media(min-width: $breakpoint-tablet) {
         background-image: none;
@@ -60,8 +60,7 @@
 
 .header-wrapper .black-overlay .header-content .navigation a {
     text-decoration: none;
-    display: block;
-    color: #FFFFFF;
+    color: $white;
 }
 
 .header-wrapper .black-overlay .header-content .navigation a:hover {

@@ -1,12 +1,8 @@
 /* Breakpoints */
 /* Colors */
 html, body {
-  background-color: #fff;
-  min-height: 100%;
-  font-family: sans-serif; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0; }
+  background-color: #FCFAF9;
+  min-height: 100%; }
 
 .container {
   margin: 5%;
@@ -16,14 +12,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   min-height: 100vh;
   flex-direction: column; }
-
-.footer {
-  letter-spacing: 3px;
-  height: 3rem;
-  text-align: center; }
-  .footer a {
-    color: dimgray;
-    text-decoration: none; }
 
 .nav-wrapper {
   font-family: 'Raleway', sans-serif;
@@ -48,8 +36,15 @@ h1, h2, h3, h4, h5, h6 {
     .nav-wrapper .list-item {
       width: 10%; } }
 .nav-wrapper a {
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.87059); }
+  text-decoration: none; }
+
+.footer {
+  letter-spacing: 3px;
+  height: 3rem;
+  text-align: center; }
+  .footer a {
+    color: #5E5E5E;
+    text-decoration: none; }
 
 .description {
   font-family: 'Raleway', sans-serif;
