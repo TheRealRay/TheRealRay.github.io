@@ -14,7 +14,7 @@
     color: #fff;
     float: left;
 
-    @media(min-width: $breakpoint-tablet) {
+    @media(min-width: $breakpointTablet) {
         width: 14rem;
         height: 14rem;
         :not(:first-child) {
@@ -24,7 +24,7 @@
         margin-right: auto;
     }
 
-    @media(min-width: $breakpoint-laptop) {
+    @media(min-width: $breakpointLaptop) {
         width: 18rem;
         height: 18rem;
         :not(:first-child) {

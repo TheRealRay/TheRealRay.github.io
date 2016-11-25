@@ -18,26 +18,26 @@ html, body {
 .nav-wrapper {
   font-weight: 400;
   width: 100%; }
-
-.nav-wrapper .list {
-  text-align: center;
-  margin: 0;
-  padding: 0;
-  background-color: whitesmoke; }
-  @media (min-width: 768px) {
-    .nav-wrapper .list {
-      text-align: right; } }
-.nav-wrapper .list-item {
-  display: inline-block;
-  text-align: center;
-  width: 23%;
-  height: 3rem;
-  line-height: 3rem; }
-  @media (min-width: 768px) {
-    .nav-wrapper .list-item {
-      width: 10%; } }
-.nav-wrapper a {
-  text-decoration: none; }
+  .nav-wrapper .list {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #3993DD; }
+@media(min-width: $breakpointTablet) {
+  .nav-wrapper .list {
+    text-align: right; } }
+  .nav-wrapper .list-item {
+    display: inline-block;
+    text-align: center;
+    width: 23%;
+    height: 3rem;
+    line-height: 3rem; }
+@media(min-width: $breakpointTablet) {
+  .nav-wrapper .list-item {
+    width: 10%; } }
+  .nav-wrapper a {
+    text-decoration: none;
+    color: #333333; }
 
 .footer {
   letter-spacing: 3px;

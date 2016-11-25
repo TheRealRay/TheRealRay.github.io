@@ -1,10 +1,10 @@
 @import "allpages";
 
 .description {
-    color: $dimGrey;
+    color: $grey;
     text-align: justify;
 
-    @media(min-width: $breakpoint-laptop) {
+    @media(min-width: $breakpointLaptop) {
         font-size: 22px;
     }
 }

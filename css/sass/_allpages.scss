@@ -1,17 +1,15 @@
 /* Breakpoints */
-$breakpoint-tablet: 768px;
-$breakpoint-laptop: 1024px;
+$breakpointTablet: 768px;
+$breakpointLaptop: 1024px;
 
 /* Colors */
 $white: #FCFAF9;
 $beige: #F3D3BD;
 $grey: #5E5E5E;
-$darkgrey: #333333;
+$darkGrey: #333333;
 $aqua: #48E5C2;
 $blackShade: rgba(0, 0, 0, 0.35);
-
 $blue: #3993DD;
-$dimGrey: rgb(105, 105, 105);
 
 html, body {
     background-color: $white;
