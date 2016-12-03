@@ -1,8 +1,9 @@
-/* Breakpoints */
-$breakpointTablet: 768px
-$breakpointLaptop: 1024px
+// Breakpoints
+$breakpointSmallTablet: 500px
+$breakpointTablet: 800px
+$breakpointLaptop: 1100px
 
-/* Colors */
+// Colors
 $white: #FCFAF9
 $beige: #F3D3BD
 $grey: #5E5E5E
@@ -17,6 +18,10 @@ html, body
   font-family: 'Open Sans', sans-serif
   font-weight: 400
 
+a
+  &:visited
+    color: inherit
+
 .container
   margin: 5%
   flex: 1
@@ -26,5 +31,7 @@ html, body
   min-height: 100vh
   flex-direction: column
 
-@import navigation
-@import footer
+.flex-center
+  display: flex
+  align-items: center
+  justify-content: center
